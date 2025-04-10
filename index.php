@@ -171,7 +171,7 @@
         <div class="solar-div">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="card">
+                    <div class="process-card">
                         <div class="card-img">
                             <div class="position-relative"><img src="bootstrap/images/round-img-2.png" alt="">
                                 <div class="green-div">01</div>
@@ -188,7 +188,7 @@
 
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="card">
+                    <div class="process-card">
 
                         <div class="card-content">
                             <h3>Cusom System Design & Planning
@@ -204,7 +204,7 @@
 
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="card">
+                    <div class="process-card">
                         <div class="card-img">
                             <div class="position-relative"><img src="bootstrap/images/round-img-2.png" alt="">
                                 <div class="green-div">03</div>
@@ -220,7 +220,7 @@
 
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="card">
+                    <div class="process-card">
 
                         <div class="card-content">
                             <h3>Consultation & Site

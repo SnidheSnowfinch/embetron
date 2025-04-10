@@ -90,9 +90,11 @@
 
     function showSlide(index) {
         slides.forEach(slide => slide.classList.remove('active'));
+        if(slides[index]){
         slides[index].classList.add('active');
     }
 
+}
     function goToNextSlide() {
         currentSlide = (currentSlide + 1) % slides.length;
         showSlide(currentSlide);
@@ -102,16 +104,17 @@
         currentSlide = (currentSlide - 1 + slides.length) % slides.length;
         showSlide(currentSlide);
     }
-
+if(prevBtn){
     prevBtn.addEventListener('click', () => {
         goToPrevSlide();
         resetInterval();
-    });
+    });}
+    if(nextBtn){
 
     nextBtn.addEventListener('click', () => {
         goToNextSlide();
         resetInterval();
-    });
+    });}
 
     // Auto slide every 4 seconds
     function startAutoSlide() {
@@ -126,6 +129,53 @@
 
     // Start auto sliding when page loads
     startAutoSlide();
+
+
+    const carousel = document.getElementById('carousel');
+  const prevBtnReview = document.querySelector('.prev-review');
+  const nextBtnReview = document.querySelector('.next-review');
+  const dotsContainer = document.getElementById('dots');
+
+  const cardWidth = document.querySelector('.testimonial-card').offsetWidth + 20;
+  const totalCards = document.querySelectorAll('.testimonial-card').length;
+  const cardsPerView = 4;
+  const totalPages = Math.ceil(totalCards / cardsPerView);
+  let currentIndex = 0;
+
+  // Create dots
+  for (let i = 0; i < totalPages; i++) {
+    const dot = document.createElement('div');
+    dot.classList.add('dot');
+    if (i === 0) dot.classList.add('active');
+    dot.addEventListener('click', () => {
+      carousel.scrollTo({ left: i * carousel.offsetWidth, behavior: 'smooth' });
+    });
+    dotsContainer.appendChild(dot);
+  }
+
+  const updateDots = () => {
+    const index = Math.round(carousel.scrollLeft / carousel.offsetWidth);
+    document.querySelectorAll('.dot').forEach((dot, i) => {
+      dot.classList.toggle('active', i === index);
+    });
+  };
+if(nextBtnReview){
+  nextBtnReview.addEventListener('click', () => {
+    carousel.scrollBy({ left: carousel.offsetWidth, behavior: 'smooth' });
+  });
+}
+if(prevBtnReview){
+  prevBtnReview.addEventListener('click', () => {
+    carousel.scrollBy({ left: -carousel.offsetWidth, behavior: 'smooth' });
+  });}
+
+  carousel.addEventListener('scroll', () => {
+    updateDots();
+  });
+
+  window.addEventListener('resize', () => {
+    updateDots();
+  });
 </script>
 
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
