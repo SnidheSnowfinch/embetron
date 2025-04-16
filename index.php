@@ -42,13 +42,7 @@
 </div>
 
 </div>
-<!-- <section class="hero">
-        <div class="hero-content">
-            <h2>ENSURE A GREEN FUTURE</h2>
-            <h1>Affordable <br /> Power Solutions</h1>
-            <a href="#" class="top-btn">Get A Quote ➤</a>
-        </div>
-    </section> -->
+
 <section class="section-img">
     <div class="left">
         <img src="bootstrap/images/solar.png" alt="Solar Panels" />
@@ -188,7 +182,7 @@
 
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="process-card">
+                    <div class="process-card-down">
 
                         <div class="card-content">
                             <h3>Cusom System Design & Planning
@@ -220,7 +214,7 @@
 
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="process-card">
+                    <div class="process-card-down">
 
                         <div class="card-content">
                             <h3>Consultation & Site

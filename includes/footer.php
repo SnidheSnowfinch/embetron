@@ -135,13 +135,15 @@ if(prevBtn){
   const prevBtnReview = document.querySelector('.prev-review');
   const nextBtnReview = document.querySelector('.next-review');
   const dotsContainer = document.getElementById('dots');
+  const test_card = document.querySelector('testimonial-card');
+  if(test_card){
 
   const cardWidth = document.querySelector('.testimonial-card').offsetWidth + 20;
   const totalCards = document.querySelectorAll('.testimonial-card').length;
   const cardsPerView = 4;
   const totalPages = Math.ceil(totalCards / cardsPerView);
   let currentIndex = 0;
-
+  
   // Create dots
   for (let i = 0; i < totalPages; i++) {
     const dot = document.createElement('div');
@@ -152,7 +154,7 @@ if(prevBtn){
     });
     dotsContainer.appendChild(dot);
   }
-
+}
   const updateDots = () => {
     const index = Math.round(carousel.scrollLeft / carousel.offsetWidth);
     document.querySelectorAll('.dot').forEach((dot, i) => {
@@ -167,7 +169,7 @@ if(nextBtnReview){
 if(prevBtnReview){
   prevBtnReview.addEventListener('click', () => {
     carousel.scrollBy({ left: -carousel.offsetWidth, behavior: 'smooth' });
-  });}
+  });
 
   carousel.addEventListener('scroll', () => {
     updateDots();
@@ -175,7 +177,7 @@ if(prevBtnReview){
 
   window.addEventListener('resize', () => {
     updateDots();
-  });
+  });}
 </script>
 
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>

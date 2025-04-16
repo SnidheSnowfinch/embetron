@@ -21,9 +21,9 @@
 
     <div class="top-bar">
         <div>
-           <i class="bi bi-clock"></i> Mon - Fri 8:00 - 7:00 / Sunday 8:00 - 5:00 <label for="" class="mx-2">|</label><i class="bi bi-geo-alt"></i> Flat no: 2/A, Shreevaysh terrace, Warje, Pune - 411052<label for="" class="mx-2">|</label>
+           <i class="bi bi-clock"></i> Mon - Fri 8:00 - 7:00 / Sunday 8:00 - 5:00 <label for="" class="mx-large">|</label><i class="bi bi-geo-alt"></i> Flat no: 2/A, Shreevaysh terrace, Warje, Pune - 411052<label for="" class="mx-large">|</label>
             <label for="">
-                <a href="#"><i class="bi bi-envelope mx-2"></i>info@embetronsolar.com</a> 
+                <a href="#"><i class="bi bi-envelope mx-large"></i>info@embetronsolar.com</a> 
                 
             </label>
         </div>
@@ -40,10 +40,14 @@
         </div>
     </div>
 
-    <nav class="navbar">
+    <nav class="navbar  navbar-expand-lg">
         <div class="top-div"><img class="top-img" src="bootstrap/images/nav-image.png" alt="">
             <div class="logo top-img-inner"><img src="bootstrap/images/logo-img-top.png" alt=""></div>
         </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
         <ul>
 
             <li><a href="#">Home</a></li>
@@ -55,8 +59,11 @@
             <li><a href="#">Knowledge center</a></li>
             <li><a href="#">Career</a></li>
         </ul>
+</div>
         <div class="link-div"><a href=""><img src="bootstrap/images/search-green.png" alt=""></a>
             <a href=""><img src="bootstrap/images/grid.png" alt=""></a>
             <a href="#" class="top-btn">Call For Help: +91 0000000000</a>
         </div>
     </nav>
+
+

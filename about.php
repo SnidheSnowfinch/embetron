@@ -8,7 +8,7 @@
         </div>
 </div>
 <section class="section-img">
-    <div class="position-relative" >
+    <div class="position-relative sub-img-margin" >
         <img class="left-img" src="bootstrap/images/about-sub-img1.png" alt="Solar Panels" />
         <div class="about-sub-img">
             <img src="bootstrap/images/about-sub-img2.png" alt="">
@@ -130,7 +130,7 @@
 
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="process-card">
+                    <div class="process-card-down">
 
                         <div class="card-content">
                             <h3>Cusom System Design & Planning
@@ -162,7 +162,7 @@
 
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="process-card">
+                    <div class="process-card-down">
 
                         <div class="card-content">
                             <h3>Consultation & Site
