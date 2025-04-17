@@ -44,17 +44,15 @@
         <div class="top-div"><img class="top-img" src="bootstrap/images/nav-image.png" alt="">
             <div class="logo top-img-inner"><img src="bootstrap/images/logo-img-top.png" alt=""></div>
         </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+       
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul>
 
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About Us</a></li>
             <li><a href="#">Our Team</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a href="services.php">Services</a></li>
+            <li><a href="our-gallery.php">Gallery</a></li>
             <li><a href="#">Products</a></li>
             <li><a href="#">Knowledge center</a></li>
             <li><a href="#">Career</a></li>
@@ -64,6 +62,9 @@
             <a href=""><img src="bootstrap/images/grid.png" alt=""></a>
             <a href="#" class="top-btn">Call For Help: +91 0000000000</a>
         </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
     </nav>
 
 

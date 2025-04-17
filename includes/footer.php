@@ -14,15 +14,19 @@
             </div>
             <div class="footer-links">
                 <h4>Useful Links</h4>
-                <ul>
-                <li><a href="#"><i class="bi bi-arrow-up-right mx-2"></i>Home</a></li>
-                    <li><a href="#"><i class="bi bi-arrow-up-right mx-2"></i>About Us</a></li>
-                    <li><a href="#"><i class="bi bi-arrow-up-right mx-2"></i>Services</a></li>
-                    <li><a href="#"><i class="bi bi-arrow-up-right mx-2"></i>Gallery</a></li>
-                    <li><a href="#"><i class="bi bi-arrow-up-right mx-2"></i>Products</a></li>
-                    <li><a href="#"><i class="bi bi-arrow-up-right mx-2"></i>Knoweldge Center</a></li>
+                <div class="footer-flex"><ul>
+                
+                <li><a href="index.php"><i class="bi bi-arrow-up-right"></i>Home</a></li>
+                    <li><a href="about.php"><i class="bi bi-arrow-up-right "></i>About Us</a></li>
+                    <li><a href="services.php"><i class="bi bi-arrow-up-right"></i>Services</a></li>
 
                 </ul>
+                <ul>
+                <li><a href="our-gallery.php"><i class="bi bi-arrow-up-right"></i>Gallery</a></li>
+                    <li><a href="#"><i class="bi bi-arrow-up-right"></i>Products</a></li>
+                    <li><a href="#"><i class="bi bi-arrow-up-right"></i>Knoweldge Center</a></li>
+
+                </ul></div>
             </div>
             <div class="footer-hours">
                 <h4>Contact Us</h4>
@@ -51,25 +55,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="footer-contact">
-                <h4>Recent Posts</h4>
-                <div class="footer-flex">
-                    <img src="bootstrap/images/solar1.jpg" alt="">
-                    <div>
-                        <h5>Solar Incentives: Tax
-                            Credits and Rebates</h5>
-                        <p><i class="bi bi-calendar"></i>jan 4</p>
-                    </div>
-                </div>
-                <div class="footer-flex">
-                    <img src="bootstrap/images/solar2.jpg" alt="">
-                    <div>
-                        <h5>Solar Incentives: Tax
-                            Credits and Rebates</h5>
-                        <p><i class="bi bi-calendar"></i>jan 4</p>
-                    </div>
-                </div>
-            </div>
+          
         </div>
         
     </div>
