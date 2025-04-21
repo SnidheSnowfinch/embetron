@@ -164,6 +164,54 @@ if(prevBtnReview){
   window.addEventListener('resize', () => {
     updateDots();
   });}
+
+  function changeImage(element) {
+      // Change main image
+      const mainImage = document.getElementById('currentImage');
+      mainImage.src = element.src;
+
+      // Update active thumbnail
+      const thumbnails = document.querySelectorAll('.flex-thumbnails img');
+      thumbnails.forEach(thumb => thumb.classList.remove('active'));
+      element.classList.add('active');
+    }
+
+
+    const counters = document.querySelectorAll('.counter');
+    let started = false;
+
+    const options = {
+      threshold: 0.6
+    };
+
+    const animateCounter = (counter) => {
+      const target = +counter.getAttribute('data-target');
+      let count = 0;
+      const speed = 200; // lower = faster
+
+      const step = () => {
+        const increment = target / speed;
+        if (count < target) {
+          count += increment;
+          counter.innerText = Math.floor(count).toLocaleString();
+          requestAnimationFrame(step);
+        } else {
+          counter.innerText = target.toLocaleString();
+        }
+      };
+      step();
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !started) {
+          counters.forEach(counter => animateCounter(counter));
+          started = true;
+        }
+      });
+    }, options);
+
+    counters.forEach(counter => observer.observe(counter));
 </script>
 
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>

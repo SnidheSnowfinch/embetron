@@ -101,23 +101,27 @@
     <div class="fecility-inner">
         <div class="fecility-box-center">
             <img src="bootstrap/images/fec-icon-1.png" alt="">
-            <h5>1200+</h5>
+            <h5 class="counter" data-target="1200">0</h5>
+
             <p>Followers</p>
         </div>
         <div class="fecility-box-center">
             <img src="bootstrap/images/fec-icon-2.png" alt="">
-            <h5>3000+</h5>
+            <h5 class="counter" data-target="3000">0</h5>
             <p>Support</p>
         </div>
         <div class="fecility-box-center">
             <img src="bootstrap/images/fec-icon-2.png" alt="">
-            <h5>9000+</h5>
+            <h5 class="counter" data-target="9000">0</h5>
+
+           
             <p>Clients</p>
         </div>
         <div class="fecility-box">
             <img src="bootstrap/images/fec-icon-3.png" alt="">
-            <h5>160+</h5>
-            <p>IAwards</p>
+            <h5 class="counter" data-target="160">0</h5>
+
+            <p>Awards</p>
         </div>
     </div>
 </section>

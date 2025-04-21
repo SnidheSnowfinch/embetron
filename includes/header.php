@@ -46,20 +46,39 @@
         </div>
        
         <div class="collapse navbar-collapse" id="navbarNav">
-        <ul>
+        <ul class="navs">
+        
 
             <li><a href="index.php">Home</a></li>
             <li><a href="about.php">About Us</a></li>
             <li><a href="#">Our Team</a></li>
-            <li><a href="services.php">Services</a></li>
+
+            <li>
+
+          <a href="#">Services ▾</a>
+          <div class="dropdown">
+            <a href="#">Grid-Tied Solar rooftop Systems</a>
+            <a href="#">Ground mounted Solar Project</a>
+            <a href="Hybrid-Services.php">Hybrid Solar System</a>
+            <a href="#">Solar Water Pump</a>
+            <a href="#">Power Purchase Agreement</a>
+            <a href="#">Off-Grid Solar System</a>
+            <a href="#">Other Services</a>
+
+
+
+
+          </div>
+        </li>
             <li><a href="our-gallery.php">Gallery</a></li>
-            <li><a href="#">Products</a></li>
+            <li><a href="product-catalogue.php">Products</a></li>
             <li><a href="#">Knowledge center</a></li>
             <li><a href="#">Career</a></li>
         </ul>
 </div>
-        <div class="link-div"><a href=""><img src="bootstrap/images/search-green.png" alt=""></a>
-            <a href=""><img src="bootstrap/images/grid.png" alt=""></a>
+        <div class="link-div"><a href="">
+    <i class="bi bi-search"></i></a>
+            <a href=""> <i class="bi bi-grid-3x3-gap-fill"></i></a>
             <a href="#" class="top-btn">Call For Help: +91 0000000000</a>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
