@@ -1,6 +1,6 @@
 <?php include 'includes/header.php' ?>
 <div class="about-head">
-    <img src="bootstrap/images/about-head.png" alt="">
+    <img src="bootstrap/images/back-drop.png" alt="">
     <div class="hero-content">
             <h1>Hybrid Solar System</h1>
             <h2><label class="text-light" for="">HOME /</label> SERVICES</h2>

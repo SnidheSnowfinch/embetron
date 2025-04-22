@@ -1,7 +1,7 @@
 <?php include 'includes/header.php' ?>
 <div class="about-head">
-    <img src="bootstrap/images/about-head.png" alt="">
-    <div class="hero-content">
+<img src="bootstrap/images/back-drop.png" alt="">
+<div class="hero-content">
             <h1>Our Gallery</h1>
             <h2><label class="text-light" for="">HOME /</label> OUR Gallery</h2>
 

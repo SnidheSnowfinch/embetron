@@ -21,7 +21,7 @@
 
     <div class="top-bar">
         <div>
-           <i class="bi bi-clock"></i> Mon - Fri 8:00 - 7:00 / Sunday 8:00 - 5:00 <label for="" class="mx-large">|</label><i class="bi bi-geo-alt"></i> Flat no: 2/A, Shreevaysh terrace, Warje, Pune - 411052<label for="" class="mx-large">|</label>
+           <i class="bi bi-clock me-1"></i> Mon - Fri 8:00 - 7:00 / Sunday 8:00 - 5:00 <label for="" class="mx-large">|</label><i class="bi bi-geo-alt"></i> Flat no: 2/A, Shreevaysh terrace, Warje, Pune - 411052<label for="" class="mx-large">|</label>
             <label for="">
                 <a href="#"><i class="bi bi-envelope mx-large"></i>info@embetronsolar.com</a> 
                 
@@ -31,7 +31,7 @@
         <a href="#">Follow Us On</a>
             <a href="#"><i class="bi bi-facebook"></i></a>
             <a href="#"><i class="bi bi-twitter"></i></a>
-            <a href="#"><i class="bi bi-linkdin"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
             <a href="#"><i class="bi bi-instagram"></i></a>
             <a href="#"><i class="bi bi-youtube"></i></a>
 
@@ -63,7 +63,7 @@
             <a href="#">Solar Water Pump</a>
             <a href="#">Power Purchase Agreement</a>
             <a href="#">Off-Grid Solar System</a>
-            <a href="#">Other Services</a>
+            <a href="Our-service.php">Other Services</a>
 
 
 
@@ -72,8 +72,10 @@
         </li>
             <li><a href="our-gallery.php">Gallery</a></li>
             <li><a href="product-catalogue.php">Products</a></li>
-            <li><a href="#">Knowledge center</a></li>
-            <li><a href="#">Career</a></li>
+            <li><a href="knowledge-center.php">Knowledge center</a></li>
+            <li><a href="career.php">Career</a></li>
+            <li><a href="contact-us.php">Contact</a></li>
+
         </ul>
 </div>
         <div class="link-div"><a href="">

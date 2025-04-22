@@ -16,15 +16,15 @@
                 <h4>Useful Links</h4>
                 <div class="footer-flex"><ul>
                 
-                <li><a href="index.php"><i class="bi bi-arrow-up-right"></i>Home</a></li>
-                    <li><a href="about.php"><i class="bi bi-arrow-up-right "></i>About Us</a></li>
-                    <li><a href="services.php"><i class="bi bi-arrow-up-right"></i>Services</a></li>
+                <li><a href="index.php"><i class="bi bi-arrow-up-right me-2"></i>Home</a></li>
+                    <li><a href="about.php"><i class="bi bi-arrow-up-right me-2 "></i>About Us</a></li>
+                    <li><a href="Our-service.php"><i class="bi bi-arrow-up-right me-2"></i>Services</a></li>
 
                 </ul>
                 <ul>
-                <li><a href="our-gallery.php"><i class="bi bi-arrow-up-right"></i>Gallery</a></li>
-                    <li><a href="#"><i class="bi bi-arrow-up-right"></i>Products</a></li>
-                    <li><a href="#"><i class="bi bi-arrow-up-right"></i>Knoweldge Center</a></li>
+                <li><a href="our-gallery.php"><i class="bi bi-arrow-up-right me-2"></i>Gallery</a></li>
+                    <li><a href="product-catalogue.php"><i class="bi bi-arrow-up-right me-2"></i>Products</a></li>
+                    <li><a href="knowledge-center.php"><i class="bi bi-arrow-up-right me-2"></i>Knoweldge Center</a></li>
 
                 </ul></div>
             </div>
@@ -33,7 +33,7 @@
                 <ul>
                     <li>
                         <h5>Address Location</h5>
-                        <div class="footer-flex"> <span class="footer-icon"><i class="bi bi-geo-alt"></i></span>
+                        <div class="footer-flex-contact"> <span class="footer-icon"><i class="bi bi-geo-alt"></i></span>
                             <p>
                                 Flat no. 2/A, Shreeyesh terrace, <br> Warje, Pune - 411 052,India.
                             </p>
@@ -41,14 +41,14 @@
                     </li>
                     <li>
                         <h5>Phone Number</h5>
-                        <div class="footer-flex"> <span class="footer-icon"><i class="bi bi-telephone"></i></span>
+                        <div class="footer-flex-contact"> <span class="footer-icon"><i class="bi bi-telephone"></i></span>
                             <p>555222222222
                             </p>
                         </div>
                     </li>
                     <li>
                         <h5>Email Address</h5>
-                        <div class="footer-flex"> <span class="footer-icon"><i class="bi bi-envelope"></i></span>
+                        <div class="footer-flex-contact"> <span class="footer-icon"><i class="bi bi-envelope"></i></span>
                             <p>info@embetronsolar.com
                             </p>
                         </div>
