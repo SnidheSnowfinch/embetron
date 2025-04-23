@@ -1,6 +1,6 @@
 <?php include 'includes/header.php' ?>
 <div class="about-head">
-    <img src="bootstrap/images/back-drop.png" alt="">
+    <img src="bootstrap/images/back-drop.webp" alt="">
     <div class="hero-content">
             <h1>Career</h1>
             <h2><label class="text-light" for="">HOME /</label> CAREER</h2>
@@ -9,7 +9,7 @@
 </div>
 <section class="section-img">
     <div class="left">
-        <img src="bootstrap/images/career.png" alt="Solar Panels"  class="career-img" />
+        <img src="bootstrap/images/career.webp" alt="Solar Panels"  class="career-img" />
 
     </div>
 
@@ -50,7 +50,7 @@
     </div>
    
       <div class="map-container">
-        <img src="bootstrap/images/contact-image.png" alt="">
+        <img src="bootstrap/images/contact-image.webp" alt="">
       <!-- You can replace this src with your actual map embed code -->
     </div>
 

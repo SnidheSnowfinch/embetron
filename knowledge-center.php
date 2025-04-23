@@ -1,6 +1,6 @@
 <?php include 'includes/header.php' ?>
 <div class="about-head">
-    <img src="bootstrap/images/back-drop.png" alt="">
+    <img src="bootstrap/images/back-drop.webp" alt="">
     <div class="hero-content">
             <h1>Knowledge Center</h1>
             <h2><label class="text-light" for="">HOME /</label> KNOWLEDGE CENTER</h2>
@@ -9,7 +9,7 @@
 </div>
 <section class="section-img">
     <div class="left">
-        <img src="bootstrap/images/Knowledge-c-1.png" alt="Solar Panels" />
+        <img src="bootstrap/images/Knowledge-c-1.webp" alt="Solar Panels" />
 
     </div>
 
@@ -32,14 +32,14 @@
 
     </div>
     <div class="left">
-    <img src="bootstrap/images/Knowledge-c-2.png" alt="Solar Panels" />
+    <img src="bootstrap/images/Knowledge-c-2.webp" alt="Solar Panels" />
 
 
     </div>
 </section>
 <section class="section-img pt-0">
     <div class="left">
-    <img src="bootstrap/images/Knowledge-c-3.png" alt="Solar Panels" />
+    <img src="bootstrap/images/Knowledge-c-3.webp" alt="Solar Panels" />
 
     </div>
 

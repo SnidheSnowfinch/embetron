@@ -1,6 +1,6 @@
 <?php include 'includes/header.php' ?>
 <div class="about-head">
-    <img src="bootstrap/images/back-drop.png" alt="">
+    <img src="bootstrap/images/back-drop.webp" alt="">
     <div class="hero-content">
             <h1>Contact Us</h1>
             <h2><label class="text-light" for="">HOME /</label> CONTACT US</h2>
@@ -11,7 +11,7 @@
 <div class="top-boxes">
     <div class="box">
         <div class="green-drop">
-            <img src="bootstrap/images/location-box.png" alt="">
+            <img src="bootstrap/images/location-box.webp" alt="">
         </div>
         <div>      <h4>Our Address</h4>
       <p>Emotron System Solutions Pvt. Ltd.<br>
@@ -20,7 +20,7 @@
     </div>
     <div class="box">
         <div class="green-drop">
-        <img src="bootstrap/images/call-box.png" alt="">
+        <img src="bootstrap/images/call-box.webp" alt="">
 
         </div>
      <div>
@@ -31,7 +31,7 @@
     </div>
     <div class="box">
     <div class="green-drop">
-    <img src="bootstrap/images/clock-box.png" alt="">
+    <img src="bootstrap/images/clock-box.webp" alt="">
 
     </div>
 

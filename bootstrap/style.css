@@ -55,7 +55,7 @@ body {
 }
 
 .hero {
-    background: url('./images/index-img.png') no-repeat center center/cover;
+    background: url('./images/index-img.webp') no-repeat center center/cover;
     height: 80vh;
     display: flex;
     align-items: center;
@@ -492,7 +492,7 @@ body {
 }
 .work-img:hover{
     box-shadow: var(--bs-box-shadow) !important;
-    border: 5px solid #23c70382;
+    border: 5px solid #146205ae;
     opacity: .9;
     transform: translateY(-10px);
 
@@ -665,7 +665,7 @@ body {
 margin-right: 10px;}
 
 .blue-div::before{
-    background: url('./images/about-bg\ 1.png') no-repeat center center/cover;
+    background: url('./images/about-bg\ 1.webp') no-repeat center center/cover;
 width: 35%;
     /* background: #0E121D; */
     content: "";
@@ -783,6 +783,7 @@ width: 35%;
   
 
   @media (max-width: 1024px) {
+    
     .testimonial-card {
       flex: 0 0 calc(50% - 10px);
     }
@@ -802,6 +803,18 @@ width: 35%;
     border: none;
 }
 @media (max-width: 767px) {
+    .d-nav-flex{
+        width: 100%;
+        display: flex !important
+    ;
+        justify-content: flex-end;
+    }
+    .side-nav{
+        width: 100%;
+    }
+    .member-card img{
+        width: 60%;
+    }
     .map-container {
         text-align: center;
         margin-top: 15px;
@@ -839,7 +852,7 @@ width: 35%;
         /* margin: 0; */
         list-style: none;
         display: flex;
-        gap: 20px;
+        /* gap: 8px; */
     }
     .blue-div{
         position: relative;
@@ -903,7 +916,7 @@ width: 35%;
         width: 50px;
     }
     .fecility-section {
-        background: url('./images/solar.png') no-repeat center center/cover;
+        background: url('./images/solar.webp') no-repeat center center/cover;
         height: 230px;
         display: flex;
         align-items: center;
@@ -921,7 +934,10 @@ width: 35%;
     
     }
     .nav.prev {
-        top: 46% !important;
+        top: 66% !important;
+    }
+    .nav.next {
+        top: 83%;
     }
     .nav {
         color: white;
@@ -971,17 +987,16 @@ width: 35%;
         width: 45px;
     }
     .top-bar {
-        justify-content: flex-end;
         flex-wrap: wrap;
-        display: flex;
-        padding: 8px 15px 8px 15px;
+        display: flex
+;
+        padding: 8px 15px 25px 15px;
         background: #010F1C;
         color: #ccc;
         font-size: 13px;
         /* padding: 5px 15px; */
-        /* display: flex;
-        justify-content: space-between; */
         align-items: center;
+        justify-content: space-between;
     }
     .top-bar a {margin-left: 0 !important;}
     .card-content h3{
@@ -1164,6 +1179,18 @@ width: 35%;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+    .d-nav-flex{
+        width: 100%;
+        display: flex !important
+    ;
+        justify-content: flex-end;
+    }
+    .side-nav{
+        width: 100%;
+    }
+    .member-card img{
+        width: 60%;
+    }
     .map-container {
         margin-top: 15px;
         flex: 1;
@@ -1199,7 +1226,7 @@ width: 35%;
             flex-direction: column;
         margin: 0;
         list-style: none;
-        gap: 10px;
+        gap: 8px;
     }
     .blue-div{
         position: relative;
@@ -1246,7 +1273,7 @@ width: 35%;
     .fecility-box {
         text-align: center;
         max-width: 360px;
-        padding: 15px 85px;
+        padding: 10px 35px;
     }
     .fecility-box-center {
         text-align: center;
@@ -1254,14 +1281,13 @@ width: 35%;
         border-right: 1px solid white;
     
         max-width: 360px;
-        padding: 15px 85px;
-    }
+        padding: 10px 35px;    }
     .fecility-box img,
     .fecility-box-center img {
         width: 70px;
     }
     .fecility-section {
-        background: url('./images/solar.png') no-repeat center center/cover;
+        background: url('./images/solar.webp') no-repeat center center/cover;
         height: 300px;
         display: flex;
         align-items: center;
@@ -1514,6 +1540,25 @@ width: 35%;
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
+    .top-nav-div{
+        display: flex;
+    }
+    .side-nav{
+        gap: 30px;
+        display: flex
+    ;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    .member-img-div{
+        width: 80%;
+    }
+    .member-card img{
+        width: 100%;
+    }
+    .member-card{
+        display: flex;
+    }
     .contact-section {
         align-items: center;
         display: flex;
@@ -1539,7 +1584,7 @@ width: 35%;
         margin: 0;
         list-style: none;
         display: flex;
-        gap: 20px;
+        gap: 18px;
     }
     .blue-div{
         position: relative;
@@ -1579,7 +1624,7 @@ width: 35%;
         width: 70px;
     }
     .fecility-section {
-        background: url('./images/solar.png') no-repeat center center/cover;
+        background: url('./images/solar.webp') no-repeat center center/cover;
         height: 300px;
         display: flex;
         align-items: center;
@@ -1633,7 +1678,8 @@ width: 35%;
         /* position: relative; */
     }
     .top-img {
-        height: 49px;
+        width: 195px;
+        height: 58px;
     
     }
     .top-img-inner img {
@@ -1647,7 +1693,7 @@ width: 35%;
         padding: 8px 15px 8px 250px;
         background: #010F1C;
         color: #ccc;
-        font-size: 13px;
+        font-size: 15px;
         /* padding: 5px 15px; */
         display: flex;
         justify-content: space-between;
@@ -1840,6 +1886,25 @@ width: 35%;
     }
 }
 @media (min-width: 1441px) and (max-width: 1920px) {
+    .top-nav-div{
+        display: flex;
+    }
+    .side-nav{
+        gap: 30px;
+        display: flex
+    ;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    .member-img-div{
+        width: 80%;
+    }
+    .member-card img{
+        width: 100%;
+    }
+    .member-card{
+        display: flex;
+    }
     .contact-section {
         align-items: center;
         display: flex;
@@ -1865,7 +1930,7 @@ width: 35%;
         margin: 0;
         list-style: none;
         display: flex;
-        gap: 20px;
+        gap: 18px;
     }
     .blue-div{
         position: relative;
@@ -1905,7 +1970,7 @@ width: 35%;
         width: 70px;
     }
     .fecility-section {
-        background: url('./images/solar.png') no-repeat center center/cover;
+        background: url('./images/solar.webp') no-repeat center center/cover;
         height: 300px;
         display: flex;
         align-items: center;
@@ -1959,7 +2024,8 @@ width: 35%;
         /* position: relative; */
     }
     .top-img {
-        height: 58px;
+        width: 220px;
+        height: 62px;
     
     }
     .top-img-inner img {
@@ -1973,7 +2039,7 @@ width: 35%;
         padding: 8px 15px 8px 250px;
         background: #010F1C;
         color: #ccc;
-        font-size: 13px;
+        font-size: 15px;
         /* padding: 5px 15px; */
         display: flex;
         justify-content: space-between;
@@ -2164,6 +2230,25 @@ width: 35%;
     }
 }
 @media (min-width: 1921px) {
+    .top-nav-div{
+        display: flex;
+    }
+    .side-nav{
+        gap: 30px;
+        display: flex
+    ;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    .member-img-div{
+        width: 80%;
+    }
+    .member-card img{
+        width: 100%;
+    }
+    .member-card{
+        display: flex;
+    }
     .contact-section {
         align-items: center;
         display: flex;
@@ -2189,7 +2274,7 @@ width: 35%;
         margin: 0;
         list-style: none;
         display: flex;
-        gap: 20px;
+        gap: 18px;
     }
     .blue-div{
         position: relative;
@@ -2230,7 +2315,7 @@ width: 35%;
         width: 70px;
     }
     .fecility-section {
-        background: url('./images/solar.png') no-repeat center center/cover;
+        background: url('./images/solar.webp') no-repeat center center/cover;
         height: 300px;
         display: flex;
         align-items: center;
@@ -2284,7 +2369,9 @@ width: 35%;
         /* position: relative; */
     }
     .top-img {
-        height: 58px;
+        width: 220px;
+        height: 62px;
+  
     
     }
     .top-img-inner img {
@@ -2483,7 +2570,14 @@ width: 35%;
     }
 }
 
+.navbar-toggler:focus{
+    border: none;
+    box-shadow: none;
 
+}
+.navbar-toggler{
+    padding: 0;
+}
 
 
 .footer-flex{
@@ -2491,9 +2585,9 @@ width: 35%;
     gap: 50px;
 }
 .footer-flex-contact{
-    align-items: flex-start;
-
-    display: flex;
+    align-items: center;
+    display: flex
+;
     gap: 10px;
 }
 .work-section h1{
@@ -2523,14 +2617,17 @@ width: 35%;
 }
 .gallery-img{
     object-fit: fill;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
     border: 3px solid rgb(255, 255, 255);
 
     height: 250px;
 }
 .gallery-img:hover{
-    border: 3px solid rgba(42, 168, 42, 0.681);
-    transform: translateY(-8px);
+    box-shadow: var(--bs-box-shadow);
+    transform: scale(1.08);
+    /* border: 2px solid pink; */
+    border: 3px solid rgba(1, 102, 1, 0.681);
+    /* transform: translateY(-8px); */
     border-radius: 8px;
 
 }
@@ -2758,6 +2855,7 @@ margin-top: 5px;
     border-radius: 12px;
     cursor: pointer;
   }
+
   .map-container {
     flex: 1;
   }
@@ -2816,3 +2914,24 @@ form p{
         gap: 40px;
         justify-content: space-evenly;
   }
+  @media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important
+;
+        flex-basis: auto;
+        justify-content: space-around;
+    }}
+    
+   
+    .member-content{
+        text-align: left;
+        width: 100%;
+        padding: 10px;
+    }
+    .top-bar p{
+        margin: 0;
+    }
+    .top-bar i:hover{
+        color: #57B33E;
+
+    }

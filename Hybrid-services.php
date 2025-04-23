@@ -1,6 +1,6 @@
 <?php include 'includes/header.php' ?>
 <div class="about-head">
-    <img src="bootstrap/images/back-drop.png" alt="">
+    <img src="bootstrap/images/back-drop.webp" alt="">
     <div class="hero-content">
             <h1>Hybrid Solar System</h1>
             <h2><label class="text-light" for="">HOME /</label> SERVICES</h2>
@@ -9,7 +9,7 @@
 </div>
 <section class="section-img">
     <div class="left">
-        <img src="bootstrap/images/hybrid.png" alt="Solar Panels" />
+        <img src="bootstrap/images/hybrid.webp" alt="Solar Panels" />
 
     </div>
 
