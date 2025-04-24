@@ -220,12 +220,12 @@
                         <p>
                             <bold>B.Tech, E&TC from SGGSI&T, Nanded.</bold>
                         </p>
-                        <p class="m-0">Sagar Patil used to head the Business Development for India for carbon advisory
+                        <p class="m-0 text-justify">Sagar Patil used to head the Business Development for India for carbon advisory
                             practice where he successfully developed the carbon advisory businesses and worked on over
                             25 projects. </p>
                     </div>
         </div>
-        <p >                His areas of expertise include micro grids, distributed generation, smart grid, transmission pricing,
+        <p class="text-justify member-label">                His areas of expertise include micro grids, distributed generation, smart grid, transmission pricing,
                 transmission system expansion planning, restructured power systems, ancillary market designs,
                 intelligent power grid and power system studies. He has been expertise with Maharashtra state
                 electricity board (MSEB),MEDA and MERC. Sagar Patil heads the Business Development of the company and
@@ -245,11 +245,11 @@
                         <p>
                             <bold>M.E, Pune University, Maharashtra.</bold>
                         </p>
-                        <p class="m-0">Anuja has 5 years of experience in Project Finance, Accounts, Legal coordination and Income Tax. She has held several senior positions in Finance and accounting Management in business houses.  </p>
+                        <p class="m-0 text-justify ">Anuja has 5 years of experience in Project Finance, Accounts, Legal coordination and Income Tax. She has held several senior positions in Finance and accounting Management in business houses.  </p>
                     </div>
                     
         </div>
-        <p>Currently, she heads the finance operations and HR activities at Embetron. She loves to play tabla and singing.</p>
+        <p class="text-justify member-label">Currently, she heads the finance operations and HR activities at Embetron. She loves to play tabla and singing.</p>
          
             </div>
 

@@ -14,8 +14,10 @@
             <img src="bootstrap/images/location-box.webp" alt="">
         </div>
         <div>      <h4>Our Address</h4>
-      <p>Emotron System Solutions Pvt. Ltd.<br>
-        CIN: U72900PN2017OPC170825 Flat no. 21/A, Shreepad terrace, Wakad, Pune - 411 057, India</p>
+        <p>CIN: U74993PN2018PTC176305</p>
+        <p>Flat no. 2/A, Shreeyesh terrace,</p>
+<p>Warje, Pune - 411 052,</p>
+<p>India.</p>
 </div>
     </div>
     <div class="box">

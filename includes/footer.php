@@ -19,12 +19,17 @@
                 <li><a href="index.php"><i class="bi bi-arrow-up-right me-2"></i>Home</a></li>
                     <li><a href="about.php"><i class="bi bi-arrow-up-right me-2 "></i>About Us</a></li>
                     <li><a href="Our-service.php"><i class="bi bi-arrow-up-right me-2"></i>Services</a></li>
+                    <li><a href="our-gallery.php"><i class="bi bi-arrow-up-right me-2"></i>Gallery</a></li>
+
 
                 </ul>
                 <ul>
-                <li><a href="our-gallery.php"><i class="bi bi-arrow-up-right me-2"></i>Gallery</a></li>
-                    <li><a href="product-catalogue.php"><i class="bi bi-arrow-up-right me-2"></i>Products</a></li>
+                    <li><a href="project-gallery.php"><i class="bi bi-arrow-up-right me-2"></i>Project Gallery</a></li>
                     <li><a href="knowledge-center.php"><i class="bi bi-arrow-up-right me-2"></i>Knoweldge Center</a></li>
+                    <li><a href="career.php"><i class="bi bi-arrow-up-right me-2"></i>Career</a></li>
+                    <li><a href="contact-us.php"><i class="bi bi-arrow-up-right me-2"></i>Contact</a></li>
+
+
 
                 </ul></div>
             </div>

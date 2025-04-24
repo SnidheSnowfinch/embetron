@@ -2,90 +2,141 @@
 <div class="about-head">
     <img src="bootstrap/images/back-drop.webp" alt="">
     <div class="hero-content">
-        <h1>Our Service</h1>
-        <h2><label class="text-light" for="">HOME /</label> OUR SERVICE</h2>
+        <h1>Other Service</h1>
+        <h2><label class="text-light" for="">HOME /</label> SERVICES</h2>
 
     </div>
 </div>
-<section class="section-img">
-    <div class="left">
-        <img src="bootstrap/images/service-img.webp" alt="Solar Panels" />
 
-    </div>
 
-    <div class="right">
-        <h5><i class="bi bi-sun"></i>Service<i class="bi bi-sun"></i></h5>
+<section class="work-section text-left  pb-0">
+<h5><i class="bi bi-sun"></i>Services<i class="bi bi-sun"></i></h5>
 
-        <h2>What We Provide</h2>
-        <p>At Embetron Solar, we provide a number of integrated services that allow us to offer a full turnkey solution.
-            It is these services that are central to our reputation and success, delivered by our experienced and
-            professional staff focused on accomplishing the best long term solution for your business.</p>
-        <p>Each of our services offer specialist expertise and consultancy and work in collaboration to deliver a
-            bespoke solution for your business. From the initial site survey, right through to design, project
-            management and installation, with EvoEnergy each part of your journey will be supported by the industry’s
-            leading professionals and solutions.
+    <h1>Open Access Solutions
+    </h1>
+    <p>Open access helps Consumers to source power directly from generators as per their needs as an alternative to power.
+    </p>
+    <p>We assist consumers in entering relevant Captive/ Third Party – Renewable/ Conventional PPAs as per their suitable needs.
+    </p>
+    <ul class="off-text list-inline">
+        <li>
+        Services we offer:-
 
-            Below is an overview of the key services that create our full turnkey solution;</p>
-    </div>
-</section>
-<section class="section-img  pt-0">
 
-    <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="gray-back">
-                <h2>Design & Engineering</h2>
-                <p>After discussing the bespoke nature of your buildings and business goals to determine the best
-                    approach and technologies, our design team use specialist software to engineer solutions by
-                    modelling your company premises and creating electrical schematics. Your dedicated project manager
-                    will also have input into the design, utilising their experience working on similar projects.</p>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="gray-back">
-                <h2>Product Procurement</h2>
-                <p>Our procurement team ensure that we can always offer the industry’s leading products at the best
-                    prices. This includes ‘tier 1’ solar panels, mounting frames, inverters and monitoring systems. We
-                    work closely with some of the industry’s biggest manufacturers including Trina, ABB, Fronius,
-                    Clenergy and SolarEdge that often give direct support into the design of our solutions.</p>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="gray-back">
-                <h2>Project Management</h2>
-                <p>Your installation will be assigned its own project manager, directly employed by EvoEnergy, and will
-                    be your main point of contact and communication onsite during the project. All of our project
-                    managers originated from an installation team and understand first-hand the technicalities of
-                    installing, allowing them to manage and supervise installation teams more effectively.</p>
-            </div>
-        </div>
-    
-    <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="gray-back">
-            <h2>Installation</h2>
-            <p>We pride ourselves on delivering a quality installation that continues to raise industry standards. Lead
-                by our own project manager, we work with a trusted number of installation partners that are fully
-                audited and trained to deliver quality workmanship and employ the highest health and safety practices.
-                We always operate to ensure minimal disruption to your business during installation.</p>
-        </div>
-    </div>
-    
-    <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="gray-back">
-            <h2>Operation & Maintenance</h2>
-            <p>Our operation and maintenance team provide a comprehensive service to ensure that your energy technology
-                solution continues to deliver year-on-year benefits by implementing a monitoring service that alerts us
-                to immediately remedy any issues that may occur over time. This may be low generation caused by a panel
-                or inverter fault or often issues external to the system.</p>
-        </div>
-    </div>
+        </li>
+    </ul>
+    <ul>
+        <li class="my-2">Technical due diligence of developers/ players offering RE power
+        </li>
+        <li class="my-2">
+        Commercial evaluation _ saving analysis
+
+        </li>
+        <li class="my-2">
+        Regulatory guidance
+
+        </li>
+        <li class="my-2">
+        Power Purchase Agreement (“PPA”) evaluation
+
+        </li>
+        <li class="my-2">
+        Suggesting suitable players/ developers offering RE power
+
+        </li>
+    </ul>
   
+    <ul class="off-text list-inline">
+        <li>
+        Infrastructure Solutions - Projects
 
+        </li>
+    </ul>
+    <p>One of the critical challenges in the sector is upgradation/setting up of new infrastructure.
+    </p>
+    <p>We offer Turnkey Infrastructure Solutions in the Electricity Space for all Routine – Infrastructure upgradation as well
+    </p>
+    <p>Project delivery through Workmanship, Teamwork, ensuring safety and quality with On-Time Performance,
+    </p>
 
-
-
-    </div>
+   
+    <ul class="off-text list-inline">
+        <li>
+        Energy portfolio management
+        </li>
+    </ul>
+    <p>The constant and positive change in the power market has enabled consumers to purchase power either through power exchanges, inter-state open-access, intra-state bilateral trade or using available roof-space to generate solar power.
+    </p>
+   <p>A plethora of Options result in making it difficult to choose the right combination which balances commercial and sustainability goals.
+   </p>
 
 </section>
+<section class="work-section text-left pt-2">
+<h1>Services:-
+</h1>
+<div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-6 mt-3">
+            <div class="gray-back">
+                <h2>Land Procurement Facilitation</h2>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 mt-3">
+            <div class="gray-back">
+                <h2>Land Investment Consultation
+                </h2>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 mt-3">
+            <div class="gray-back">
+                <h2>Agriculture Land Title Search
+
+                </h2>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 mt-3">
+            <div class="gray-back">
+                <h2>Legal Solution for Agriculture Land
+
+
+                </h2>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 mt-3">
+            <div class="gray-back">
+                <h2>Liaison Work for Land Development
+
+
+
+                </h2>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 mt-3">
+            <div class="gray-back">
+                <h2>Land Levelling and Boundary Wall.
+
+                </h2>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 mt-3">
+            <div class="gray-back">
+                <h2>1 Mw to 10 Mw MSEDCL Connectivity 
+
+
+                </h2>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 mt-3">
+            <div class="gray-back">
+                <h2>10 Mw to 50 Mw MSETCL Connectivity,
+
+
+                </h2>
+            </div>
+        </div>
+        
+</div>
+</section>
+
 
 
 

@@ -35,11 +35,11 @@
         </div>
         <div>
 <p>            <a href="#">Follow Us On</a>
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-twitter"></i></a>
-            <a href="#"><i class="bi bi-linkedin"></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="mx-1"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="mx-1"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="mx-1"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="mx-1"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="mx-1"><i class="bi bi-youtube"></i></a>
 
 </p>
 
@@ -73,12 +73,11 @@
 
                     <a href="#">Services ▾</a>
                     <div class="dropdown">
-                        <a href="#">Grid-Tied Solar rooftop Systems</a>
-                        <a href="#">Ground mounted Solar Project</a>
+                        <a href="grid-tied-solar.php">Grid-Tied Solar rooftop Systems</a>
+                        <a href="ground-mount-solar.php">Ground mounted Solar Project</a>
                         <a href="Hybrid-Services.php">Hybrid Solar System</a>
-                        <a href="#">Solar Water Pump</a>
-                        <a href="#">Power Purchase Agreement</a>
-                        <a href="#">Off-Grid Solar System</a>
+                        <a href="power-purchase-solar.php">Power Purchase Agreement</a>
+                        <a href="off-grid.php">Off-Grid Solar System</a>
                         <a href="Our-service.php">Other Services</a>
 
 
@@ -87,7 +86,7 @@
                     </div>
                 </li>
                 <li><a href="our-gallery.php">Gallery</a></li>
-                <li><a href="product-catalogue.php">Products</a></li>
+                <li><a href="project-gallery.php">Project Galley</a></li>
                 <li><a href="knowledge-center.php">Knowledge center</a></li>
                 <li><a href="career.php">Career</a></li>
                 <li><a href="contact-us.php">Contact</a></li>
