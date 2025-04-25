@@ -30,31 +30,6 @@
 
  
 </section>
-<section class="section-img pt-0">
-    <div class="contact-section">
-    <div class="form-container">
-      <h2>Make An Appoinment</h2>
-      <form>
-        <input type="text" placeholder="Full Name" required>
-        <input type="email" placeholder="Email Address" required>
-        <input type="text" placeholder="Contact Number" required>
-        <input type="text" placeholder="Subject" required>
-       <div>
-       <p>Attach Document here (Only .pdf and .doc files with max size 3MB are accepted)</p>
-       <input type="file" class="border-0 px-1">
-       </div>
 
-        <textarea rows="5" placeholder="Message" required></textarea>
-        <button type="submit">Submit <i class="bi bi-arrow-up-right me-2"></i></button>
-      </form>
-    </div>
-   
-      <div class="map-container">
-        <img src="bootstrap/images/contact-image.webp" alt="">
-      <!-- You can replace this src with your actual map embed code -->
-    </div>
-
-    </div>
-</section>
 
 <?php include 'includes/footer.php';?>

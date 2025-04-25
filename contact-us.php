@@ -45,27 +45,7 @@
     </div>
   </div>
 </section>
-<section class="section-img pt-0">
-    <div class="contact-section">
-    <div class="form-container">
-      <h2>Send Your Enquiry</h2>
-      
-      <form>
-        <input type="text" placeholder="Full Name" required>
-        <input type="email" placeholder="Email Address" required>
-        <input type="text" placeholder="Contact Number" required>
-        <textarea rows="5" placeholder="Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
-   
-      <div class="map-container">
-      <!-- You can replace this src with your actual map embed code -->
-      <iframe src="https://maps.google.com/maps?q=Pune,India&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
-    </div>
 
-    </div>
-</section>
 
 
 <?php include 'includes/footer.php';?>
