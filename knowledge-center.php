@@ -22,6 +22,7 @@
     </div>
 </section>
 <section class="section-img-auto  pt-0">
+    
    
 
     <div class="right">

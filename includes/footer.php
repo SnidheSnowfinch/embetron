@@ -25,7 +25,7 @@
                 </ul>
                 <ul>
                     <li><a href="project-gallery.php"><i class="bi bi-arrow-up-right me-2"></i>Project Gallery</a></li>
-                    <li><a href="knowledge-center.php"><i class="bi bi-arrow-up-right me-2"></i>Knoweldge Center</a></li>
+                    <li><a href="knowledge-center-2.php"><i class="bi bi-arrow-up-right me-2"></i>Knoweldge Center</a></li>
                     <li><a href="career.php"><i class="bi bi-arrow-up-right me-2"></i>Career</a></li>
                     <li><a href="contact-us.php"><i class="bi bi-arrow-up-right me-2"></i>Contact</a></li>
 
@@ -217,6 +217,25 @@ if(prevBtnReview){
     }, options);
 
     counters.forEach(counter => observer.observe(counter));
+    const titles = document.querySelectorAll(".accordion-title");
+
+titles.forEach(title => {
+  title.addEventListener("click", () => {
+    const icon = title.querySelector(".accordion-icon");
+    const content = title.nextElementSibling;
+    const isOpen = content.classList.contains("open");
+
+    // Close all
+    document.querySelectorAll(".accordion-content").forEach(c => c.classList.remove("open"));
+    document.querySelectorAll(".accordion-icon").forEach(i => i.textContent = "+");
+
+    // Open clicked one
+    if (!isOpen) {
+      content.classList.add("open");
+      icon.textContent = "-";
+    }
+  });
+});
 </script>
 
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>

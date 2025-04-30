@@ -87,7 +87,7 @@
                 </li>
                 <li><a href="our-gallery.php">Gallery</a></li>
                 <li><a href="project-gallery.php">Project Galley</a></li>
-                <li><a href="knowledge-center.php">Knowledge center</a></li>
+                <li><a href="knowledge-center-2.php">Knowledge center</a></li>
                 <li><a href="career.php">Career</a></li>
                 <li><a href="contact-us.php">Contact</a></li>
 
